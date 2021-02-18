@@ -1,9 +1,0 @@
-:~/workspace12/stdcrypto
-
-browserify index.js --standalone stdcrypto | uglifyjs >  stdcrypto.min.js
-
-index.js
-module.exports = {
-  crypto : require('crypto')
-}
-
